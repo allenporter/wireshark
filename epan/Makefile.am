@@ -229,6 +229,9 @@ plugin_src = \
 	../plugins/irda/packet-irda.c \
 	../plugins/m2m/packet-m2m.c \
 	../plugins/m2m/wimax_tlv.c \
+	../plugins/pyreshark/plugin.c \
+	../plugins/pyreshark/pyreshark.c \
+	../plugins/pyreshark/python_loader.c \
 	../plugins/wimax/crc.c \
 	../plugins/wimax/crc_data.c \
 	../plugins/wimax/mac_hd_generic_decoder.c \
