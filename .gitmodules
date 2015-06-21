@@ -1,0 +1,3 @@
+[submodule "plugins/pyreshark"]
+	path = plugins/pyreshark
+	url = https://github.com/ashdnazg/pyreshark.git
