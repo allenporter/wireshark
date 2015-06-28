@@ -10,9 +10,12 @@ autogen.sh.
 
 ```
 $ QT_DIR=/Users/$USER/Qt/5.4/clang_64
-$ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/X11/lib/pkgconfig:$QT_DIR/lib_pkgconfig
+$ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/X11/lib/pkgconfig:$QT_DIR/lib/pkgconfig
 $ export PATH=$QT_DIR/bin/:$PATH
 $ ./autogen.sh
 $ ./configure
 $ make
 ```
+
+Note that make install currently doesn't work because pyreshark doesn't support
+install.
